@@ -2,12 +2,11 @@ import { useTranslation } from 'react-i18next'
 
 import { useQuery } from '@tanstack/react-query'
 
-import { FilterResponse, fetchFilters } from '@api'
 import { FilterChooseOption } from '@api/types/Filter'
 
-import { useFilterStore } from '@store/filterStore'
-
+import { FilterResponse, fetchFilters } from './../api'
 import CloseIcon from './../images/Modal/close.svg'
+import { useFilterStore } from './../store/filterStore'
 
 const FilterModal = () => {
 	const { closeModal } = useFilterStore()

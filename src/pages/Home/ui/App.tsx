@@ -1,9 +1,8 @@
 import { useTranslation } from 'react-i18next'
 
-import ApplyBtn from '@components/applyBtn'
-import { useFilterStore } from '@store/filterStore'
-
 import FilterModal from '../../../components/FilterModal'
+import ApplyBtn from './../../../components/applyBtn'
+import { useFilterStore } from './../../../store/filterStore'
 
 export const App = () => {
 	const { isOpenModal } = useFilterStore()
