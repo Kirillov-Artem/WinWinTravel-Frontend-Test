@@ -2,11 +2,7 @@
 	"compilerOptions": {
 		"target": "ES2020",
 		"useDefineForClassFields": true,
-		"lib": [
-			"ESNext",
-			"DOM",
-			"DOM.Iterable"
-		],
+		"lib": ["ESNext", "DOM", "DOM.Iterable"],
 		"module": "ESNext",
 		"skipLibCheck": true,
 		"baseUrl": "src",
@@ -17,29 +13,14 @@
 		"isolatedModules": true,
 		"noEmit": true,
 		"jsx": "react-jsx",
-		"types": [
-			"vite-plugin-svgr/client",
-			"vitest/globals"
-		],
+		"types": ["vite-plugin-svgr/client", "vitest/globals"],
 		"paths": {
-			"@*": [
-				"*"
-			],
-			"@api/*": [
-				"shared/api/*"
-			],
-			"@components/*": [
-				"components/*"
-			],
-			"@pages/*": [
-				"pages/*"
-			],
-			"@i18n/*": [
-				"i18n/*"
-			],
-			"@store/*": [
-				"store/*"
-			]
+			"@*": ["*"],
+			"@api/*": ["shared/api/*"],
+			"@components/*": ["components/*"],
+			"@pages/*": ["pages/*"],
+			"@i18n/*": ["i18n/*"],
+			"@store/*": ["store/*"]
 		},
 		/* Linting */
 		"strict": true,
@@ -47,18 +28,8 @@
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true
 	},
-	"include": [
-		"custom.d.ts",
-		"env.d.ts",
-		"src",
-		"setupTest.ts"
-	],
-	"exclude": [
-		"node_modules",
-		"tmp",
-		".vscode",
-		".husky"
-	],
+	"include": ["custom.d.ts", "env.d.ts", "src", "setupTest.ts"],
+	"exclude": ["node_modules", "tmp", ".vscode", ".husky"],
 	"references": [
 		{
 			"path": "./tsconfig.node.json"
