@@ -18,8 +18,8 @@ importers:
         specifier: ^2.30.0
         version: 2.30.0
       i18next:
-        specifier: ^23.16.8
-        version: 23.16.8
+        specifier: ^22.5.1
+        version: 22.5.1
       immer:
         specifier: ^10.1.1
         version: 10.1.1
@@ -30,8 +30,8 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
       react-i18next:
-        specifier: ^13.5.0
-        version: 13.5.0(i18next@23.16.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: ^12.3.1
+        version: 12.3.1(i18next@22.5.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react-router:
         specifier: ^6.30.0
         version: 6.30.0(react@19.1.0)
@@ -1839,8 +1839,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  i18next@23.16.8:
-    resolution: {integrity: sha512-06r/TitrM88Mg5FdUXAKL96dJMzgqLE5dv3ryBAra4KCwD9mJ4ndOTS95ZuymIGoE+2hzfdaMak2X11/es7ZWg==}
+  i18next@22.5.1:
+    resolution: {integrity: sha512-8TGPgM3pAD+VRsMtUMNknRz3kzqwp/gPALrWMsDnmC1mKqJwpWyooQRLMcbTwq8z8YwSmuj+ZYvc+xCuEpkssA==}
 
   iconv-lite@0.6.3:
     resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
@@ -2471,10 +2471,10 @@ packages:
     peerDependencies:
       react: ^19.1.0
 
-  react-i18next@13.5.0:
-    resolution: {integrity: sha512-CFJ5NDGJ2MUyBohEHxljOq/39NQ972rh1ajnadG9BjTk+UXbHLq4z5DKEbEQBDoIhUmmbuS/fIMJKo6VOax1HA==}
+  react-i18next@12.3.1:
+    resolution: {integrity: sha512-5v8E2XjZDFzK7K87eSwC7AJcAkcLt5xYZ4+yTPDAW1i7C93oOY1dnr4BaQM7un4Hm+GmghuiPvevWwlca5PwDA==}
     peerDependencies:
-      i18next: '>= 23.2.3'
+      i18next: '>= 19.0.0'
       react: '>= 16.8.0'
       react-dom: '*'
       react-native: '*'
@@ -4919,7 +4919,7 @@ snapshots:
 
   husky@8.0.3: {}
 
-  i18next@23.16.8:
+  i18next@22.5.1:
     dependencies:
       '@babel/runtime': 7.27.0
 
@@ -5558,11 +5558,11 @@ snapshots:
       react: 19.1.0
       scheduler: 0.26.0
 
-  react-i18next@13.5.0(i18next@23.16.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  react-i18next@12.3.1(i18next@22.5.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       '@babel/runtime': 7.27.0
       html-parse-stringify: 3.0.1
-      i18next: 23.16.8
+      i18next: 22.5.1
       react: 19.1.0
     optionalDependencies:
       react-dom: 19.1.0(react@19.1.0)
