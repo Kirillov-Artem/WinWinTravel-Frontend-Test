@@ -1,1 +1,17 @@
-{}
+{
+	"apply": "Apply",
+	"filterTitle": "Filter",
+	"resetFilters": "Clear all parameters",
+	"yes": "Apply new filter",
+	"no": "Use old filter",
+	"confirmApplyMessage": "Do you want to apply changes?",
+	"openFilters": "Open Filters?",
+	"filter": {
+		"MEAL_OPTIONS_options": {
+			"breakfast": "Breakfast included",
+			"lunch": "Lunch included",
+			"dinner": "Dinner included",
+			"all-inclusive": "All inclusive"
+		}
+	}
+}
