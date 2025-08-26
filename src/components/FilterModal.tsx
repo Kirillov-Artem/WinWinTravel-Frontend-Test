@@ -9,8 +9,6 @@ import CloseIcon from './../images/Modal/close.svg'
 import { useFilterStore } from './../store/filterStore'
 import ConfirmModal from './ConfirmModal'
 
-// import ApplyBtn from './applyBtn'
-
 const FilterModal = () => {
 	const { closeModal, openConfirm, isOpenConfrim } = useFilterStore()
 	const { t } = useTranslation()
