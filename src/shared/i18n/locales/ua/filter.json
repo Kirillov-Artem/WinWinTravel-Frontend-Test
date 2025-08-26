@@ -4,7 +4,7 @@
 	"resetFilters": "Скинути фільтри",
 	"yes": "Застосувати нові фільтри",
 	"no": "Залишити старі фільтри",
-	"confirmApplyMessage": "Застосувати зміни?",
+	"confirmApplyMessage": "Застосувати зміни",
 	"openFilters": "Відкрити фільтри",
 	"filter": {
 		"MEAL_OPTIONS": {

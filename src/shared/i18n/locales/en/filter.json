@@ -4,7 +4,7 @@
 	"resetFilters": "Clear all parameters",
 	"yes": "Apply new filter",
 	"no": "Use old filter",
-	"confirmApplyMessage": "Do you want to apply changes?",
+	"confirmApplyMessage": "Do you want to apply new filter",
 	"openFilters": "Open Filters",
 	"filter": {
 		"MEAL_OPTIONS": {
